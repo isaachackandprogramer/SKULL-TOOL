@@ -19,22 +19,12 @@ var1 = input('>')
 
 if var1 == '1':
     print('')
-    print('''1-ip
-2-URL''')
+    print('''1-alvo''')
     print('')
     ip = input(">")
     if ip == '1':
         print('')
-        print('digite o ip')
+        print('digite o seu alvo')
         print('')
         var3 = input(":")
         os.system('nmap {}'.format(var3))   
-    
-    if ip == '2':
-        print('')
-        print('digite a URL')
-        print('')
-        var4 = input(':')
-        os.system('nmap {}'.format(var4))
-
-        
